@@ -1,0 +1,23 @@
+.ProfilemainPostContainer{
+  flex: 3;
+  height: 106vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.ProfilemainPostContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.ProfilemainPostContainer {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.profileCoverimage{
+  width: 92%;
+  border-radius: 10px;
+  height: 20vh;
+  object-fit: cover;
+  margin-top: 20px;
+}

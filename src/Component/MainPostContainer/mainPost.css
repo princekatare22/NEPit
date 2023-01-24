@@ -1,0 +1,17 @@
+.mainPostContainer{
+    flex: 5;
+    width: 50vw;
+    height: 105vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.mainPostContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .mainPostContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
